@@ -23,6 +23,7 @@ function App() {
   }, [])
   return (
     <div className="App">
+      <h1>Learn</h1>
       {products.map((p) =>
         (<p key={p.id}>{p.productLine.title} - {p.productLine.description}</p>)
       )}
